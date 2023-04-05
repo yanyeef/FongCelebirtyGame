@@ -174,23 +174,31 @@ public class StartPanel extends JPanel implements ActionListener {
    */
   private void setupListeners() {
     addCelebrityButton.addActionListener(this);
+    startButton.addActionListener(this);
     // will code up the rest later
   }
 
   // interface method: gets called whenever a component with an
   // ActionListener attached get clicked
   public void actionPerformed(ActionEvent ae) {
+    Object source = ae.getSource();
+    JButton clickedButton = (JButton) source;
+    String text = clickedButton.getText();
 
-    // when "add celebrity" button gets clicked:
-    answerField.setBackground(Color.WHITE);
-    clueField.setBackground(Color.WHITE);
-    if (validate(answerField.getText(), clueField.getText())) {
-      addToGame();
-    } else {
-      invalidInput();
+    if(text.equals("Add current celebrity")) {
+      // when "add celebrity" button gets clicked:
+      answerField.setBackground(Color.WHITE);
+      clueField.setBackground(Color.WHITE);
+      if (validate(answerField.getText(), clueField.getText())) {
+        addToGame();
+      } else {
+        invalidInput();
+      }
+      celebrityCount = controller.getCelebrityGameSize();
+      celebrityCountLabel.setText(countLabelText + celebrityCount);
+    } else if( text.equals("Start Celebrity game")){
+      controller.play();
     }
-    celebrityCount = controller.getCelebrityGameSize();
-    celebrityCountLabel.setText(countLabelText + celebrityCount);
   }
 
   /**

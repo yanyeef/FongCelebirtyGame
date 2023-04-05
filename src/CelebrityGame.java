@@ -46,7 +46,10 @@ public class CelebrityGame {
 	 * play screen.
 	 */
 	public void play() {
-
+		if(celebGameList != null  && celebGameList.size() >0){
+			gameCelebrity = celebGameList.get(0);
+			gameWindow.replaceScreen("GAME");
+		}
 	}
 
 	/**
@@ -99,6 +102,6 @@ public class CelebrityGame {
 	 * @return The String clue from the current celebrity.
 	 */
 	public String sendClue() {
-		return null; // stub
+		return gameCelebrity.getClue(); // stub
 	}
 }
