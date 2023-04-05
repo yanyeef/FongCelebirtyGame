@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72354f4c-c696-4e8a-a7c8-37768e7d1bf2" name="Changes" comment="" />
+    <list default="true" id="72354f4c-c696-4e8a-a7c8-37768e7d1bf2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Celebrity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Celebrity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CelebrityFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelebrityFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CelebrityGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelebrityGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CelebrityPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelebrityPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CelebrityRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelebrityRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StartPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartPanel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,15 +25,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="CelebrityRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CelebrityRunner" />
+      <module name="FongCelebirtyGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CelebrityRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="72354f4c-c696-4e8a-a7c8-37768e7d1bf2" name="Changes" comment="" />
       <created>1680613177680</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
